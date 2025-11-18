@@ -37,7 +37,7 @@ struct PartRequest: Encodable {
 }
 
 enum GeminiClient {
-    private static let apiKey = "AIzaSyBVltent2Muwf8UTpF21qsZDPWAIfITDNE"
+    private static let apiKey = //put urs
     private static let urlString = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=\(apiKey)"
     // In your GeminiClient.swift file, inside the enum...
     
